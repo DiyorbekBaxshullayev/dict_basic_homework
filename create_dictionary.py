@@ -7,4 +7,14 @@ def create_dictionary(key, value):
     Returns:
         dict: dictionary with keys and values
     """
-    return
+    ans={}
+    for i in range(len(key)):
+        ans[key[i]]=value[i]
+    
+    return ans
+
+key=[4,1,2,3]
+value=["Four", "One", "Two", "Three"]
+
+print(create_dictionary(key,value))
+
