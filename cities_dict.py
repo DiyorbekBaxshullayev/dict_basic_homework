@@ -7,11 +7,11 @@ def cities_dict(cities:list):
         dict: dictionary with keys ordered by city name
     """
     cities = {
-        1:'a',
-        2:'b'
+        'a':1,
+        'b':2
         }
     
-    return cities[1]
+    return cities['a']
 
 print(cities_dict(1))
     
